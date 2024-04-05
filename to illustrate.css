@@ -1,0 +1,24 @@
+.avatars {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.avatar {
+	padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    border-radius: 6px;
+}
+
+.avatar img {
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+}
+
+.avatar p {
+	padding: 20px;
+    margin: auto;
+}
